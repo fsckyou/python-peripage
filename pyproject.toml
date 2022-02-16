@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "python-paperang"
+version = "0.1.0"
+description = ""
+authors = ["John Scimone"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pybluez = {path = "../pybluez"}
+watchgod = "^0.7"
+ppa6 = "^0.4"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
